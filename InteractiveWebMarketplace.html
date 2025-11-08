@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - EasyFolio Bootstrap Template</title>
+  <title>Yao Yao's Portfolio</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -59,7 +59,6 @@
       </nav>
 
       <div class="header-social-links">
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href=" https://www.linkedin.com/in/yao-yao1221/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
 
@@ -72,8 +71,8 @@
     <div class="page-title">
 
       <div class="title-wrapper">
-        <h1>Healthy Aging Web App</h1>
-        <p>Developed a community-centered health companion platform to empower seniors to age healthily through features such as CC event registration, medication reminders, local service discovery, and location sharing with trusted individuals.</p>
+        <h1>Interactive Web Marketplace</h1>
+        <p>Developed MokeSell, a user-friendly e-commerce platform for buying and selling new and second-hand items, featuring secure authentication, live chat, and promotional checkout. Designed for trusted, seamless listing and purchasing, with data stored securely in RestDB.</p>
       </div>
     </div><!-- End Page Title -->
 
@@ -84,7 +83,9 @@
 
         <div class="row gy-4 g-lg-5">
           <div class="col-lg-6">
-            <img src="assets/img/portfolio/schedule.png" class="img-fluid mb-4" alt="">
+            <video autoplay loop muted class="img-fluid mb-4">
+              <source src="assets/img/portfolio/mocksellVideo.mp4" type="video/mp4">
+            </video>
             <img src="assets/img/portfolio/addingSchedule.png" class="img-fluid mb-4" alt="">
             <img src="assets/img/portfolio/addingSchedule2.png" class="img-fluid mb-4" alt="">
             <img src="assets/img/portfolio/notification.png" class="img-fluid mb-4" alt="">
@@ -96,43 +97,50 @@
 
             <div class="position-sticky" style="top: 40px">
               <div class="portfolio-description">
-                <h2>KampungConnect</h2>
+                <h2>MokeSell</h2>
 
                 <p>
-                  <strong>KampungConnect</strong> is a web application designed to help seniors age healthily and navigate daily life 
-                  with ease by connecting them to a variety of digital features that encourage both online and offline interactions.
+                  <strong>MokeSell</strong> is an interactive e-commerce web application designed to connect buyers and sellers in a trusted, 
+                  user-friendly marketplace for new and second-hand items. The platform focuses on secure transactions, seamless interaction, 
+                  and an engaging user experience.
                 </p>
 
                 <p>
-                  Developed an intuitive <strong>Medication Management</strong> module that allows elderly users to view, add, update, 
-                  and delete their medication schedules. Each entry includes the medication name, dosage time, and frequency 
-                  (daily, weekly, etc.), enabling simple and centralized management.
+                  Developed a <strong>Seller Listing System</strong> that allows users to easily upload and manage product listings, including 
+                  item name, description, price, and image. Each listing displays the seller’s name, promoting transparency and building trust 
+                  between buyers and sellers.
                 </p>
 
                 <p>
-                  Implemented a <strong>Smart Medication Search</strong> feature that lets users type or select a medication name from a 
-                  suggestion list. The system first checks the local database; if data isn’t found, it automatically retrieves details 
-                  from the <strong>openFDA API</strong> and stores them locally for future use. If no record exists, a friendly message 
-                  (“Sorry, this medicine’s information is currently unavailable”) is displayed.
+                  Designed a <strong>Buyer Shopping Experience</strong> where users can browse items, add them directly to the cart, or view detailed 
+                  product pages before making a purchase. Logged-in users can draw up to three vouchers, while visitors are prompted to log in 
+                  before accessing discount features.
                 </p>
 
                 <p>
-                  Integrated <strong>WhatsApp Reminders</strong> to automatically send notifications 30 minutes before each scheduled 
-                  medication time. Each reminder includes the medication name and dosage time, helping users stay consistent with 
-                  their prescriptions.
+                  Implemented a <strong>Cart and Checkout Module</strong> that enables users to apply coupon codes and securely complete payments. 
+                  Upon successful purchase, the system automatically updates the order status from “Pending” to “Completed,” ensuring clear 
+                  transaction tracking.
                 </p>
 
                 <p>
-                  Built a <strong>Community Notes</strong> system where users can post, update, and delete personal notes or public thoughts. 
-                  This fosters open communication, feedback sharing, and community engagement among seniors.
+                  Integrated a <strong>Real-Time Chat System</strong> using <strong>Firebase</strong> to support direct two-way communication between 
+                  buyers and sellers. This feature allows users to negotiate deals, confirm orders, and receive instant updates, enhancing engagement 
+                  and responsiveness.
                 </p>
 
                 <p>
-                  Integrated the <strong>MeaningCloud Sentiment Analysis API</strong> to evaluate the emotional tone of user-submitted notes. 
-                  Results are visualized as a pie chart on the admin dashboard, showing the proportions of positive, neutral, and negative 
-                  sentiments. This enables administrators to monitor overall community mood and provide timely support when needed.
+                  Built an <strong>Admin Dashboard</strong> that visualizes order performance through dynamic bar charts powered by the 
+                  <strong>Chart.js</strong> library. This allows administrators to monitor sales trends, completed orders, and platform activity 
+                  efficiently.
                 </p>
-              </div>
+
+                <p>
+                  Utilized <strong>restdb.io</strong> to manage user accounts, authentication, and product information; <strong>Firebase Database</strong> 
+                  for real-time messaging; and <strong>Lottie animations</strong> for smooth transitions, providing an overall modern and 
+                  interactive interface.
+                </p>
+
 
 
               <div class="portfolio-info mt-5">
@@ -157,7 +165,6 @@
 
     <div class="container">
       <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/in/yao-yao1221/" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
